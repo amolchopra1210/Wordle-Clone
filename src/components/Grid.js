@@ -9,7 +9,7 @@ const Grid = ({currentGuess , guesses, turn }) => {
                 return <Row key = {index} currentGuess = {currentGuess}/>
             }
             return <Row key = {index} guess = {item}/>
-        })};
+        })}
     </div>
   )
 }
